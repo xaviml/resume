@@ -221,16 +221,23 @@ $smallSpacing: 0.5em;
   grid-gap: $primarySpacing;
 }
 
+.companyName,
+.schoolName,
+.projectName,
+.outreachName {
+  @extend %headerPrimary;
+
+  a,
+  i {
+    align-self: center;
+    text-decoration: none;
+    color: $textPrimaryColor;
+  }
+}
+
 .leftColumn {
   display: flex;
   flex-direction: column;
-
-  .companyName,
-  .schoolName,
-  .projectName,
-  .outreachName {
-    @extend %headerPrimary;
-  }
 
   .dateRange {
     @extend %bodyPrimary;

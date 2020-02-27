@@ -1,0 +1,1 @@
+This is a template resume took from @isabelacmor. If you want to use it, you can fork and change the HTML and SCSS. To convert to pdf, you can just use Chrome (Ctrl+P) to print and save as PDF. You might need to adjust some settings for the printing.

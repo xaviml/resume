@@ -9,10 +9,10 @@ body {
 /*
   Common component styles
 */
-.sectionHeader, .header .contactName, .leftColumn .companyName,
-.leftColumn .schoolName,
-.leftColumn .projectName,
-.leftColumn .outreachName, .rightColumn .jobTitle,
+.sectionHeader, .header .contactName, .companyName,
+.schoolName,
+.projectName,
+.outreachName, .rightColumn .jobTitle,
 .rightColumn .degreeTitle,
 .rightColumn .outreachTitle {
   font-weight: 600;
@@ -135,6 +135,18 @@ body {
   grid-template-columns: minmax(auto, 135px) 1fr;
   grid-template-areas: "title description";
   grid-gap: 1em; }
+
+.companyName a,
+.companyName i,
+.schoolName a,
+.schoolName i,
+.projectName a,
+.projectName i,
+.outreachName a,
+.outreachName i {
+  align-self: center;
+  text-decoration: none;
+  color: #5a5757; }
 
 .leftColumn {
   display: flex;
